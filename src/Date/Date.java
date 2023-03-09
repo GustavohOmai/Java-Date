@@ -35,6 +35,9 @@ public class Date {
         } else if (dia<=30 && mes!=2) {
             return true;
         }
+        else if (dia<1 ) {
+            return false;
+        }
         return false;
     }
 
